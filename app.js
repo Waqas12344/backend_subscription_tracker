@@ -22,7 +22,7 @@ app.get("/",(req,res)=>{
     res.send("welcome to the subscription tracker API")
 })
 app.listen(PORT,async()=>{
-console.log("Server runing on port 3000");
+console.log("Server runing on port 5500");
 
 await connectToDatabase()
 })
